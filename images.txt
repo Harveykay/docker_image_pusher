@@ -3,5 +3,7 @@ python:alpine3.19
 kasmweb/nginx:1.25.3
 80x86/qbittorrent:latest
 80x86/qbittorrent:4.6.0-39
+emby/embyserver:4.8.0.21
+pullportainer/portainer-ce:2.17.0
 --platform=linux/amd64 redis:7.0.15-alpine3.20
 --platform=linux/arm/v7 redis:7.0.15-alpine3.20
